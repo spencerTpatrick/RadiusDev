@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="#fff"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/contact_img"
+            android:contentDescription="@string/description"/>
+ 
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/contactId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <!-- First Name -->
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:text="first_name"
+        android:textStyle="bold"/>
+    
+    <TextView android:id="@+id/nameSpace"
+       android:layout_width="5dp"
+       android:layout_height="0dp" 
+       android:layout_alignTop="@+id/first_name"
+       android:layout_toRightOf="@+id/first_name"
+       android:layout_centerInParent="true"/>
+    
+    <!-- Last Name -->
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nameSpace"
+        android:layout_toRightOf="@+id/nameSpace"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:text="last_name"
+        android:textStyle="bold"/>
+ 
+    <!-- Email -->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail" 
+        android:text="user_email"/>
+ 
+    <!-- Distance from user -->
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/first_name"
+        android:gravity="right"
+        android:layout_marginRight="5sp"
+        android:textSize="12sp"
+        android:textColor="#194396"
+        android:textStyle="bold"
+        android:text="208 ft"/>
+ 
+     <!-- Rightend Arrow -->
+     <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_arrow_small"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/description"/>
+ 
+</RelativeLayout>

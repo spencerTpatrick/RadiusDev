@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="accountSpinnerLabel">Account</string>
+    <string name="addContactButtonLabel">Add Contact</string>
+    <string name="addContactTitle">Add Contact</string>
+    <string name="allAccounts">All Accounts</string>
+    <string name="app_name">Contact Manager</string>
+    <string name="contactCreationFailure">Contact creation failed, check logs.</string>
+    <string name="contactEmailLabel">Contact Email</string>
+    <string name="contactNameLabel">Contact Name</string>
+    <string name="contactPhoneLabel">Contact Phone</string>
+    <string name="save">Save</string>
+    <string name="selectAccountLabel">Select</string>
+    <string name="selectLabel">Select label</string>
+    <string name="showInvisible">Show Invisible Contacts (Only)</string>
+    <string name="targetAccountLabel">Target Account</string>
+    <string name="undefinedTypeLabel">(Undefined)</string>
+    <string name="app_name">RadiusDev</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="LoginButton">Login</string>
+    <string name="RegisterButton">Register</string>
+    <string name="RadiusTitle">Radius</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="ReEnterPassword">Re-enter Password</string>
+    <string name="back">Back</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+    <string name="userInfo">User Information</string>
+    <string name="gps">GPS</string>
+    <string name="signOut">Sign Out</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="map">Map</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="contacts">Contacts</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    
+    <string name="action_settings">Settings</string>
+    
+    <string name="add_contact">Add Contact</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    
+    <string name="contacts_title">Contacts</string>
+    <string name="add_button">Add</string>
+    
+    <string name="save_data">Save</string>
+    <string name="cancel_data">Cancel</string>
+    
+    <string name="edit_contact_title">Edit Contact</string>
+    <string name="edit_button">Edit</string>
+    <string name="delete_button">Delete</string>
+    
+    <string name="description">Description</string>
+    
+    <string name="add_contact">Add Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="_data_data_your_app_package_databases_contacts_db3">/data/data/your.app.package/databases/contacts.db3</string>
+
+</resources>
